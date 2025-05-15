@@ -30,7 +30,6 @@ int main() {
         roll = rand() % 6 + 1;
         fprintf(file, "rolled: %d\n", roll);
         fflush(file);
-        usleep(100000);  // 0.1 s
     }
 
     fclose(file);
